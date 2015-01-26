@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShapes", "SharpShapes\SharpShapes.csproj", "{2371DA54-3C0D-4F23-8FA4-3763C9A5AEB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSharpShapes", "TestSharpShapes\TestSharpShapes.csproj", "{4BF0A281-FB3D-4DBB-A3E5-F2A77D6F20EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2371DA54-3C0D-4F23-8FA4-3763C9A5AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2371DA54-3C0D-4F23-8FA4-3763C9A5AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2371DA54-3C0D-4F23-8FA4-3763C9A5AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF0A281-FB3D-4DBB-A3E5-F2A77D6F20EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF0A281-FB3D-4DBB-A3E5-F2A77D6F20EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF0A281-FB3D-4DBB-A3E5-F2A77D6F20EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF0A281-FB3D-4DBB-A3E5-F2A77D6F20EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
