@@ -15,7 +15,7 @@ namespace TestSharpShapes
         {
             throw new NotImplementedException();
         }
-        public override int Perimeter()
+        public override decimal Perimeter()
         {
             throw new NotImplementedException();
         }

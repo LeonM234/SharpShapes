@@ -42,7 +42,7 @@ namespace SharpShapes
         /// Calculates the perimeter of the shape.
         /// </summary>
         /// <returns>the perimeter of the shape</returns>
-        abstract public int Perimeter();
+        abstract public decimal Perimeter();
 
         /// <summary>
         /// Scales the shape in size.
