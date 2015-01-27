@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SharpShapes
 {
     public class Square : Rectangle{
-        public Square(int size) : base(size, size){}
+        public Square(int edgeLength) : base(edgeLength, edgeLength){}
     }
 }
     
