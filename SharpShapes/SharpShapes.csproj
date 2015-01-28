@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Quadrilateral.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="Trapezoid.cs" />
     <Compile Include="Shape.cs" />

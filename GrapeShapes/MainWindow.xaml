@@ -1,0 +1,12 @@
+﻿<Window x:Class="GrapeShapes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="838.805" Width="826.494">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="568,10,0,0" VerticalAlignment="Top" Width="205" Height="54"/>
+        <ComboBox HorizontalAlignment="Left" Margin="51,10,0,0" VerticalAlignment="Top" Width="194" Height="56" Name="ShapeTypeComboBox"/>
+        <TextBox HorizontalAlignment="Left" Height="56" Margin="285,8,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="241"/>
+        <Canvas HorizontalAlignment="Left" Height="626" Margin="51,83,0,0" VerticalAlignment="Top" Width="722" Background="#FFE6E4E4"/>
+
+    </Grid>
+</Window>

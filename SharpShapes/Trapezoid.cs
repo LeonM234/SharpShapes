@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SharpShapes
 {
-    public class Trapezoid : Shape
+    public class Trapezoid : Quadrilateral
     {
         private decimal baseTop;
         public decimal BaseTop
@@ -22,13 +22,11 @@ namespace SharpShapes
         private decimal height;
         public decimal Height
         {
-            get {return this.height; }
+            get { return this.height; }
         }
 
-        public override int SidesCount
-        {
-            get { return 4; }
-        }
+        public decimal AcuteAngle { get; private set; }
+        public decimal ObtuseAngle { get; private set; }
 
         public Trapezoid(int baseTop, int baseBottom, int height)
         {
@@ -39,6 +37,10 @@ namespace SharpShapes
             this.baseTop = baseTop;
             this.baseBottom = baseBottom;
             this.height = height;
+
+            decimal wingLength = (BaseBottom - BaseTop) / 2;
+            this.AcuteAngle = Decimal.Round((decimal) (Math.Atan((double)(height / wingLength)) * (180.0 / Math.PI)), 2);
+            this.ObtuseAngle = 180 - AcuteAngle;
         }
 
         public override decimal Area()
