@@ -28,7 +28,7 @@ namespace GrapeShapes
             PopulateClassList();
             DrawRectangle();
             Square square = new Square(200);
-            square.FillColor = System.Drawing.Color.Navy;
+            square.FillColor = System.Drawing.Color.Blue;
             square.BorderColor = System.Drawing.Color.Fuchsia;
             DrawSquare(50, 5, square);
 
