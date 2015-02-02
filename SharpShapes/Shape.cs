@@ -28,8 +28,8 @@ namespace SharpShapes
 
         public Shape()
         {
-            BorderColor = Color.Tomato;
-            FillColor = Color.Bisque;
+            BorderColor = Color.Black;
+            FillColor = Color.Black;
         }
 
         /// <summary>

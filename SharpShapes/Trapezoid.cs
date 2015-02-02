@@ -66,6 +66,12 @@ namespace SharpShapes
             this.baseBottom = baseBottom * percent / 100;
             this.height = height * percent / 100;
         }
+
+        public override void DrawOnto(System.Windows.Controls.Canvas ShapeCanvas, int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+
     }
     
 
