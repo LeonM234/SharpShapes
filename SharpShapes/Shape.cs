@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows;
 
 namespace SharpShapes
 {
@@ -14,12 +16,12 @@ namespace SharpShapes
         /// <summary>
         /// The color of the interior of the shape, when drawn
         /// </summary>
-        public Color FillColor { get; set; }
+        public System.Windows.Media.Color FillColor { get; set; }
 
         /// <summary>
         /// The color of the border of the shape, when drawn
         /// </summary>
-        public Color BorderColor { get; set; }
+        public System.Windows.Media.Color BorderColor { get; set; }
 
         /// <summary>
         /// The number of sides of this shape.
@@ -28,8 +30,8 @@ namespace SharpShapes
 
         public Shape()
         {
-            BorderColor = Color.Black;
-            FillColor = Color.Black;
+            BorderColor = System.Windows.Media.Colors.Tomato;
+            FillColor = System.Windows.Media.Colors.Bisque;
         }
 
         /// <summary>
